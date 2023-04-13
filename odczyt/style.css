@@ -1,0 +1,109 @@
+.everything {
+    background-color: green;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-div {
+    display: flex;
+    align-items: center;
+    background-color: rgb(142, 202, 51);
+    margin-top: 10px;
+}
+
+.div-country-one {
+    margin-right: auto;
+    margin-left: 32px;
+
+}
+
+.div-country-two {
+    margin-left: auto;
+    text-align: right;
+    margin-right: 32px;
+}
+
+.div-country-one,
+.div-country-two {
+    width: 20vh;
+}
+
+.div-result-one {
+    margin-right: 4px;
+    text-align: right;
+}
+
+.div-result-two {
+    text-align: left;
+    margin-left: 4px;
+}
+
+.dash {
+    text-align: center;
+}
+
+.div-result-one,
+.div-result-two,
+.dash {
+    font-size: 32px;
+    width: 32px;
+}
+
+.flag-country-one {
+    margin: 16px 0;
+    margin-left: 40vh;
+}
+
+.flag-country-two {
+    margin-right: 40vh;
+}
+
+.flag-country-one,
+.flag-country-two {
+    width: 165px;
+    height: 99px;
+}
+
+@media screen and (max-width: 1800px) {
+    .flag-country-one,
+    .flag-country-two {
+        width: 100px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .everything {
+        font-size: 16px;
+    }
+
+    .div-result-one,
+    .div-result-two,
+    .dash {
+        font-size: 24px;
+    }
+
+    .flag-country-one {
+        margin-left: 20vh;
+    }
+
+    .flag-country-two {
+        margin-right: 20vh;
+    }
+
+    .div-country-one,
+    .div-country-two {
+        width: 15vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .flag-country-one,
+    .flag-country-two {
+        width: 75px;
+        height: 45px;
+    }
+}
+

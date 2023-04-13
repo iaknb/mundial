@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="result">
+        <div class="result-text"></div>
+        <div class="first-team">
+            <div class="select">
+                <select class="select-list">
+                    <option>Wybierz kraj</option>
+                </select>
+            </div>
+            <input type="text" class="input" list="possible-results" name="results">
+            <datalist id="possible-results">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</op  tion>
+                <option>5</option>
+            </datalist>
+        </div>
+        <div class="second-team">
+            <div class="select">
+                <select class="select-list">
+                    <option>Wybierz kraj</option>
+                </select>
+            </div>
+            <input type="text" class="input" list="possible-results" name="results">
+            <datalist id="possible-results">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>4</option>
+            </datalist>
+        </div>
+    </div>
+    <div class="divbutton">
+        <button class="button" onclick="send()">SUBMIT</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
